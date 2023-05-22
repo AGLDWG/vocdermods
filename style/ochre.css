@@ -2,7 +2,7 @@ body {
     font-family: Roboto,sans-serif;
     font-weight: 300;
     color: rgb(133, 25, 2);
-    background: url("https://raw.githubusercontent.com/AGLDWG/reg-roles/master/style/comms_bg_grey.svg") top right no-repeat;
+    background: url("https://raw.githubusercontent.com/AGLDWG/vocab-derivation-modes/master/style/comms_bg_grey.svg") top right no-repeat;
     text-align: center;
     margin: 0;
 }

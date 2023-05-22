@@ -2,7 +2,7 @@
 
 The modes by which one vocabulary may derive from another.
 
-* <https://linked.data.gov.au/def/vocdefmods>
+* <https://linked.data.gov.au/def/vocdermods>
 
 ## License
 This repository is licensed under Creative Commons 4.0 International. See the [LICENSE deed](LICENSE) in this repository for details.
