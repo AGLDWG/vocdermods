@@ -1,0 +1,22 @@
+---
+permalink: /not-applicable.ttl
+---
+PREFIX : <https://linked.data.gov.au/def/vocdermods/>
+PREFIX agldwgstatus: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX cs: <https://linked.data.gov.au/def/vocdermods>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+:not-applicable
+    a skos:Concept ;
+    dcterms:provenance "Created for the MER catalogue upgrade project, 2022"@en ;
+    reg:status agldwgstatus:original ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Derivation mode is not applicable to this vocabulary"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Not Applicable"@en ;
+    skos:scopeNote "Use this Concept if the vocabulary is known not to reuse any other vocabularies" ;
+    skos:topConceptOf cs: ;
+.

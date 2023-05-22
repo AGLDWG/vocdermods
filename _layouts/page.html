@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8" />
+    <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+    <meta name="dcterms.format" content="text/html" />
+    <meta name="dcterms.language" content="en" />
+    <meta name="dcterms.type" content="Text" />
+    <meta name="dcterms.publisher" content="Australian Government Linked Data Working Group" />
+    <meta name="dcterms.contributor" content="Nicholas Car" />
+    <meta name="dcterms.title" content="{{ page.title }}" />
+    <meta name="dcterms.created" content="2023-05-22" />
+    <meta name="dcterms.modified" content="2023-05-22" />
+    <meta name="dcterms.description" content="This vocabulary lists the ways in which a vocabulary derives from an existing vocabulary." />
+    <meta name="generator" content="Lovingly coded by hand" />
+
+    <link href="{{ site.baseurl }}/style/ochre.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <div style="width:150px; float:left;">
+            <img src="{{ site.baseurl }}/style/agldwg-logo-ochre-150.png" alt="AGLDWG logo" />
+        </div>
+        <div id="nav" style="float:right;">
+            <a href="{{ site.baseurl }}/">Regsitry Roles Vocabulary</a> |
+            <a href="https://linked.data.gov.au">AGLDWG Home</a> |
+            <a href="https://linked.data.gov.au/contact">Contact</a>
+        </div>
+    </header>
+
+    <div id="main">
+        <div id="alt" style="float:right; display:block; padding: 5px;">
+            <h3>Alternate views</h3>
+            <p>Other formats:</p>
+            <ul><li><a href="{{ site.baseurl }}{{ page.url }}.ttl">RDF (turtle)</a></li></ul>
+        </div>
+
+        <div id="content">
+            {{ content }}
+        </div>
+    </div> <!-- main -->
+
+    <footer>
+        <div id="footer_content">
+            <div id="license">
+                <img src="{{ site.baseurl }}/style/cc-by.png" alt="CC-BY 4.0 Australia exception of the Commonwealth Coat of Arms" width="88" height="31">
+                This web page content is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>
+            </div>
+            <div style="float:right; width:49%; text-align:right;"></div>
+        </div>
+    </footer>
+</body>
+</html>
