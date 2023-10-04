@@ -7,7 +7,7 @@ permalink: /subsetting-and-extension
 
 ## Subsetting & Extension
 
-`https://linked.data.gov.au/def/vocdermods/subsetting-and-extension`
+### <https://linked.data.gov.au/def/vocdermods/subsetting-and-extension>
 
 Derivation with subsetting and extension.
 

@@ -7,7 +7,7 @@ permalink: /not-applicable
 
 ## Not Applicable
 
-`https://linked.data.gov.au/def/vocdermods/not-applicable`
+### <https://linked.data.gov.au/def/vocdermods/not-applicable>
 
 This vocabulary does not derive from another.
 

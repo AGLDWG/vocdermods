@@ -7,6 +7,8 @@ permalink: /
 
 ## Vocabulary Derivation Modes
 
+### <https://linked.data.gov.au/def/vocdermods>
+
 {: .concept_scheme .alternating}  
 Element | Value
 --- | ---

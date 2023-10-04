@@ -7,7 +7,7 @@ permalink: /relabelling
 
 ## Relabelling
 
-`https://linked.data.gov.au/def/vocdermods/relabelling`
+### <https://linked.data.gov.au/def/vocdermods/relabelling>
 
 Derivation with relabelling.
 

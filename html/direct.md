@@ -7,7 +7,7 @@ permalink: /direct
 
 ## Direct
 
-`https://linked.data.gov.au/def/vocdermods/direct`
+### <https://linked.data.gov.au/def/vocdermods/direct>
 
 Derivation without alteration.
 

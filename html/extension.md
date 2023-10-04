@@ -7,7 +7,7 @@ permalink: /extension
 
 ## Extension
 
-`https://linked.data.gov.au/def/vocdermods/extension`
+### <https://linked.data.gov.au/def/vocdermods/extension>
 
 Derivation with extension.
 

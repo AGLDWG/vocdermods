@@ -7,7 +7,7 @@ permalink: /subsetting
 
 ## Subsetting
 
-`https://linked.data.gov.au/def/vocdermods/subsetting`
+### <https://linked.data.gov.au/def/vocdermods/subsetting>
 
 Derivation with subsetting.
 
