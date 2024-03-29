@@ -1,22 +1,20 @@
 ---
 permalink: /none.ttl
 ---
-PREFIX : <https://linked.data.gov.au/def/vocdermods/>
-PREFIX agldwgstatus: <https://linked.data.gov.au/def/reg-statuses/>
-PREFIX cs: <https://linked.data.gov.au/def/vocdermods>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX reg: <http://purl.org/linked-data/registry#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-:none
+<https://linked.data.gov.au/def/vocdermods/none>
     a skos:Concept ;
     dcterms:provenance "Added to this vocabulary for multiple projects in 2023"@en ;
-    reg:status agldwgstatus:addition ;
-    rdfs:isDefinedBy cs: ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/original> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/vocdermods> ;
     skos:definition "This vocabulary does not derive from another"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme <https://linked.data.gov.au/def/vocdermods> ;
     skos:prefLabel "None"@en ;
     skos:scopeNote "Use this Concept if the vocabulary is known to not reuse any other vocabularies" ;
-    skos:topConceptOf cs: ;
+    skos:topConceptOf <https://linked.data.gov.au/def/vocdermods> ;
 .
+

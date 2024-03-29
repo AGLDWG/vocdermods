@@ -1,24 +1,22 @@
 ---
 permalink: /subsetting-and-extension.ttl
 ---
-PREFIX : <https://linked.data.gov.au/def/vocdermods/>
-PREFIX agldwgstatus: <https://linked.data.gov.au/def/reg-statuses/>
-PREFIX cs: <https://linked.data.gov.au/def/vocdermods>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX reg: <http://purl.org/linked-data/registry#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-:subsetting-and-extension
+<https://linked.data.gov.au/def/vocdermods/subsetting-and-extension>
     a skos:Concept ;
     dcterms:provenance "Created for the MER catalogue upgrade project, 2022"@en ;
-    reg:status agldwgstatus:original ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Derivation with subsetting and extension"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Subsetting & Extension"@en ;
-    skos:scopeNote "Use this Concept if the reusing vocabulary both extends and subsets the original vocabulary" ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/original> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/vocdermods> ;
     skos:broader
-        :extension ,
-        :subsetting ;
+        <https://linked.data.gov.au/def/vocdermods/extension> ,
+        <https://linked.data.gov.au/def/vocdermods/subsetting> ;
+    skos:definition "Derivation with subsetting and extension"@en ;
+    skos:inScheme <https://linked.data.gov.au/def/vocdermods> ;
+    skos:prefLabel "Subset & Extension"@en ;
+    skos:scopeNote "Use this Concept if the reusing vocabulary both extends and subsets the original vocabulary" ;
 .
+

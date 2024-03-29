@@ -1,22 +1,20 @@
 ---
 permalink: /extension.ttl
 ---
-PREFIX : <https://linked.data.gov.au/def/vocdermods/>
-PREFIX agldwgstatus: <https://linked.data.gov.au/def/reg-statuses/>
-PREFIX cs: <https://linked.data.gov.au/def/vocdermods>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX reg: <http://purl.org/linked-data/registry#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-:extension
+<https://linked.data.gov.au/def/vocdermods/extension>
     a skos:Concept ;
     dcterms:provenance "Created for the MER catalogue upgrade project, 2022"@en ;
-    reg:status agldwgstatus:original ;
-    rdfs:isDefinedBy cs: ;
+    reg:status <https://linked.data.gov.au/def/reg-statuses/original> ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/vocdermods> ;
     skos:definition "Derivation with extension"@en ;
-    skos:inScheme cs: ;
+    skos:inScheme <https://linked.data.gov.au/def/vocdermods> ;
     skos:prefLabel "Extension"@en ;
     skos:scopeNote "Use this Concept if the reusing vocabulary extends the original vocabulary but does not subset it" ;
-    skos:topConceptOf cs: ;
+    skos:topConceptOf <https://linked.data.gov.au/def/vocdermods> ;
 .
+

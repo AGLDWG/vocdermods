@@ -1,6 +1,3 @@
----
-permalink: /.ttl
----
 PREFIX : <https://linked.data.gov.au/def/vocdermods/>
 PREFIX agldwgstatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://linked.data.gov.au/def/vocdermods>
