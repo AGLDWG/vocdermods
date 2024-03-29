@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Vocabulary Derivation Modes
+title: Vocabulary
 permalink: /
 ---
 # Vocabulary
