@@ -2,7 +2,7 @@ title: "Vocabulary Derivation Modes Vocabulary"
 email: nicholas.car@anu.edu.au
 description: >- # this means to ignore newlines until "baseurl:"
   The modes by which one vocabulary may derive from another.
-baseurl: "/vocab-derivation-modes" # the subpath of your site, e.g. /blog
+baseurl: "/vocdermods" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
