@@ -31,3 +31,7 @@ Serve locally
 bundle exec jekyll serve
 
 to fx dependencies: bundle update && bundle install
+
+### Taskfile
+
+There's also a [`Taskfile.yml`](./Taskfile.yml) file with the common local development commands. See https://taskfile.dev for more information on how to use it.
