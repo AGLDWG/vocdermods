@@ -11,7 +11,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     dcterms:provenance "Created for the MER catalogue upgrade project, 2022"@en ;
     reg:status <https://linked.data.gov.au/def/reg-statuses/original> ;
     rdfs:isDefinedBy <https://linked.data.gov.au/def/vocdermods> ;
-    skos:definition "Derivation without alteration"@en ;
+    skos:definition "The vocabulary is derived verbatim from an existing vocabulary without subsequent modification."@en ;
     skos:inScheme <https://linked.data.gov.au/def/vocdermods> ;
     skos:prefLabel "Direct"@en ;
     skos:topConceptOf <https://linked.data.gov.au/def/vocdermods> ;

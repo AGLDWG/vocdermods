@@ -9,7 +9,7 @@ permalink: /direct
 
 `https://linked.data.gov.au/def/vocdermods/direct`
 
-Derivation without alteration
+The vocabulary is derived verbatim from an existing vocabulary without subsequent modification.
 
 **Property** | **Value**
 --- | ---

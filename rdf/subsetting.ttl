@@ -11,7 +11,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     dcterms:provenance "Created for the MER catalogue upgrade project, 2022"@en ;
     reg:status <https://linked.data.gov.au/def/reg-statuses/original> ;
     rdfs:isDefinedBy <https://linked.data.gov.au/def/vocdermods> ;
-    skos:definition "Derivation with subsetting"@en ;
+    skos:definition "The vocabulary was constructed by reusing terms from one or more existing source vocabularies."@en ;
     skos:inScheme <https://linked.data.gov.au/def/vocdermods> ;
     skos:prefLabel "Subsetting"@en ;
     skos:scopeNote "Use this Concept if the reusing vocabulary only subsets the original but does not extend it" ;

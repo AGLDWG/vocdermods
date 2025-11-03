@@ -9,7 +9,7 @@ permalink: /extension
 
 `https://linked.data.gov.au/def/vocdermods/extension`
 
-Derivation with extension
+The vocabulary is built from an existing vocabulary, to which new terms have been added.
 
 **Property** | **Value**
 --- | ---

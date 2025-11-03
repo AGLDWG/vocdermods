@@ -11,7 +11,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     dcterms:provenance "Added to this vocabulary for multiple projects in 2023"@en ;
     reg:status <https://linked.data.gov.au/def/reg-statuses/original> ;
     rdfs:isDefinedBy <https://linked.data.gov.au/def/vocdermods> ;
-    skos:definition "This vocabulary does not derive from another"@en ;
+    skos:definition "The vocabulary is not derived either in full or in part from an existing vocabulary"@en ;
     skos:inScheme <https://linked.data.gov.au/def/vocdermods> ;
     skos:prefLabel "None"@en ;
     skos:scopeNote "Use this Concept if the vocabulary is known to not reuse any other vocabularies" ;

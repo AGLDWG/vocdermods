@@ -9,7 +9,7 @@ permalink: /relabelling
 
 `https://linked.data.gov.au/def/vocdermods/relabelling`
 
-Derivation with relabelling
+Terms from a source vocabulary are adopted and relabeled to better align with the new vocabulary's intent.
 
 **Property** | **Value**
 --- | ---

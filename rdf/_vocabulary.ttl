@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcterms:provenance "Created for the MER catalogue upgrade project, 2022"@en ;
     reg:status agldwgstatus:original ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "Derivation without alteration"@en ;
+    skos:definition "The vocabulary is derived verbatim from an existing vocabulary without subsequent modification."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Direct"@en ;
     skos:topConceptOf cs: ;
@@ -24,7 +24,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcterms:provenance "Created for the MER catalogue upgrade project, 2022"@en ;
     reg:status agldwgstatus:original ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "Derivation with extension"@en ;
+    skos:definition "The vocabulary is built from an existing vocabulary, to which new terms have been added."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Extension"@en ;
     skos:scopeNote "Use this Concept if the reusing vocabulary extends the original vocabulary but does not subset it" ;
@@ -36,7 +36,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcterms:provenance "Added to this vocabulary for multiple projects in 2023"@en ;
     reg:status agldwgstatus:original ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "This vocabulary does not derive from another"@en ;
+    skos:definition "The vocabulary is not derived either in full or in part from an existing vocabulary."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "None"@en ;
     skos:scopeNote "Use this Concept if the vocabulary is known to not reuse any other vocabularies" ;
@@ -60,7 +60,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcterms:provenance "Created for the MER catalogue upgrade project, 2022"@en ;
     reg:status agldwgstatus:original ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "Derivation with relabelling"@en ;
+    skos:definition "Terms from a source vocabulary are adopted and relabeled to better align with the new vocabulary's intent."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Relabelling"@en ;
     skos:scopeNote "Use this Concept if the reusing vocabulary only relabels Concepts in the original vocabulary but does not alter their place in the Concept hierarchy or their definitions" ;
@@ -72,7 +72,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcterms:provenance "Created for the MER catalogue upgrade project, 2022"@en ;
     reg:status agldwgstatus:original ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "Derivation with subsetting"@en ;
+    skos:definition "The vocabulary was constructed by reusing terms from one or more existing source vocabularies."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Subsetting"@en ;
     skos:scopeNote "Use this Concept if the reusing vocabulary only subsets the original but does not extend it" ;
@@ -84,7 +84,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcterms:provenance "Created for the MER catalogue upgrade project, 2022"@en ;
     reg:status agldwgstatus:original ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "Derivation with subsetting and extension"@en ;
+    skos:definition "The vocabulary combines terms from existing vocabularies with newly created terms."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Subset & Extension"@en ;
     skos:scopeNote "Use this Concept if the reusing vocabulary both extends and subsets the original vocabulary" ;

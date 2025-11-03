@@ -14,7 +14,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     skos:broader
         <https://linked.data.gov.au/def/vocdermods/extension> ,
         <https://linked.data.gov.au/def/vocdermods/subsetting> ;
-    skos:definition "Derivation with subsetting and extension"@en ;
+    skos:definition "The vocabulary combines terms from existing vocabularies with newly created terms."@en ;
     skos:inScheme <https://linked.data.gov.au/def/vocdermods> ;
     skos:prefLabel "Subset & Extension"@en ;
     skos:scopeNote "Use this Concept if the reusing vocabulary both extends and subsets the original vocabulary" ;
