@@ -9,7 +9,7 @@ permalink: /subsetting
 
 `https://linked.data.gov.au/def/vocdermods/subsetting`
 
-Derivation with subsetting
+The vocabulary was constructed by reusing terms from one or more existing source vocabularies.
 
 **Property** | **Value**
 --- | ---

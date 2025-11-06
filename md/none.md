@@ -9,7 +9,7 @@ permalink: /none
 
 `https://linked.data.gov.au/def/vocdermods/none`
 
-This vocabulary does not derive from another
+The vocabulary is not derived either in full or in part from an existing vocabulary.
 
 **Property** | **Value**
 --- | ---

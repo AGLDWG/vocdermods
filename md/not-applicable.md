@@ -9,7 +9,7 @@ permalink: /not-applicable
 
 `https://linked.data.gov.au/def/vocdermods/not-applicable`
 
-Derivation mode is not applicable to this vocabulary
+Derivation mode is not applicable to this vocabulary.
 
 **Property** | **Value**
 --- | ---

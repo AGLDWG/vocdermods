@@ -9,7 +9,7 @@ permalink: /subsetting-and-extension
 
 `https://linked.data.gov.au/def/vocdermods/subsetting-and-extension`
 
-Derivation with subsetting and extension
+The vocabulary combines terms from existing vocabularies with newly created terms.
 
 **Property** | **Value**
 --- | ---
